@@ -15,4 +15,9 @@ export class AppComponent {
   update() {
     console.log(this.time);
   }
+
+  updateNgKeyUp() {
+    this.time.minute = 66;
+    console.log(this.time);
+  }
 }

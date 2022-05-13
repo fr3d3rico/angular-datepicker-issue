@@ -1,6 +1,6 @@
 
 
-<ngb-timepicker [(ngModel)]="time" (ngModelChange)="update()" (input)="update()" [spinners]="true"></ngb-timepicker>
+<ngb-timepicker [(ngModel)]="time" (ngModelChange)="update()" (input)="update()" (keyup)="updateNgKeyUp()" [spinners]="true"></ngb-timepicker>
 
 {{time | json}}
 
